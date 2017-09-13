@@ -18,7 +18,7 @@ object Teste_Teste2_Teste2config : BuildType({
     steps {
         powerShell {
             name = "teste step"
-            enabled = true
+            enabled = false
             scriptMode = script {
                 content = "#"
             }
